@@ -3,9 +3,9 @@ variable "location" {
   default = "West US"
 }
 
-variable "cluster_rg_name" {
+variable "rg_name" {
   type    = string
-  default = "kml_rg_main-e1a2d089e4544aa9"
+  default = "kml_rg_main-167d6474acbb46c7"
 }
 
 variable "prefix" {
